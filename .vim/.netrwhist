@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/nkhatiwada/.gnupg/private-keys-v1.d'
+let g:netrw_dirhist_8='/home/nkhatiwada/.gnupg/openpgp-revocs.d'
+let g:netrw_dirhist_7='/home/nkhatiwada/.gnupg/private-keys-v1.d'
+let g:netrw_dirhist_6='/home/nkhatiwada/.config'
+let g:netrw_dirhist_5='/home/nkhatiwada/Applications/archinstall/scripts'
+let g:netrw_dirhist_4='/home/nkhatiwada/Applications/archinstall'
+let g:netrw_dirhist_3='/home/nkhatiwada/ProjectWorks/Xnk'
+let g:netrw_dirhist_2='/etc/netctl/interfaces'
+let g:netrw_dirhist_1='/home/nkhatiwada/.config/awesome/ui/decorations'
+let g:netrw_dirhist_0='/home/nkhatiwada/.config/awesome/ui'

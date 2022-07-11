@@ -1,0 +1,27 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "lib/jquery.min.js", "lib/buy.js", "class/IndexedDB.js", "class/Note.js", "class/Notes.js", "class/Notifications.js", "class/Store.js", "class/Sync.js", "class/SyncMethod.js", "class/SyncViaMethods.js", "class/SyncFileSystem.js", "background/general.js", "background/background.js" ]
+      }
+   },
+   "author": "ProWebJect - Michał Góra",
+   "description": "The first, truly sticky app for notes on your desktop! It is easy to manage and customize. Now also supports speech recognition!",
+   "host_permissions": [ "http://prowebject.com/*", "http://www.prowebject.com/*", "https://www.paypalobjects.com/*" ],
+   "icons": {
+      "128": "img/icon_128.png",
+      "19": "img/icon_19.png",
+      "38": "img/icon_38.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxvB/fWxE2W0e8gNmdTPXpclD7jfYzaUJZ94Oi2KSdHgnm+ZFKgD/sTRmnYhgevMO1jp4tnO9da8gavdTCJ0cLgXBA1MbvdP9YF7djqD7shvN/IaBYXmor0Ii2OcFOm8+YhHr8OyJl9QPor3O/yY9fSQ1j9stf/xIS9MbAfokBvCfjeMLLUlSlGilolE/vDU8+DlvdnvGwOHp6+ulbjSGYtEvJrqj6ebTOQbOmvCGdP7WNbkn5ZpFOCvXZFXfT4o6Vb+XD7vDp3QPkFf8SkRug6BY0XeBapRqaykhU3CxOoFjgjFdZBtJoNy6RibpDRc2QIodqIKZR3SEKzm0/H3u1QIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "90",
+   "name": "Sticky Notes",
+   "offline_enabled": true,
+   "optional_permissions": [ "audioCapture", "background" ],
+   "permissions": [ "notifications", "storage", "syncFileSystem", {
+      "fileSystem": [ "write", "retainEntries" ]
+   }, "identity", "alwaysOnTopWindows", "tts", "clipboardWrite", "clipboardRead", "webview" ],
+   "short_name": "Sticky Notes",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.18.0.0"
+}
